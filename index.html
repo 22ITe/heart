@@ -79,6 +79,10 @@
     <div class="container">
         <div class="heart"></div>
     </div>
-    <audio src="./Chicanemmuon-NB2-HNGLE.mp3" autoplay></audio>
+    <audio src="./Chicanemmuon-NB2-HNGLE.mp3" ></audio>
+    <script>
+        const audio = document.querySelector('audio');
+        document.body.addEventListener("click", () => audio.play())   
+    </script>
 </body>
 </html>
